@@ -3,7 +3,7 @@
 
     "name": "Dean Swift",
     "description": "Replace the name 'Dean Swift' with 'Hand Shank'",
-    "version": "0.1",
+    "version": "0.2",
 
     "browser_action": {
         "default_icon": {
@@ -18,6 +18,7 @@
             "matches": [
                 "<all_urls>"
             ],
+            "run_at": "document_idle",
             "js": ["js/content.js"]
         }
     ]
