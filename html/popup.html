@@ -5,6 +5,7 @@
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
+        min-width: 400px;
       }
       [class*='col-'] {
         float: left;
@@ -29,12 +30,18 @@
         -moz-box-sizing: border-box;
         box-sizing: border-box;
       }
+      :link, :visited {
+        text-decoration: none;
+        border-bottom: 2px black dotted;
+        color: black;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
     <div class='grid'>
       <div class='col-1-3'>
-        <img src='img/twitter-logo.png' alt='Dean Swift Twitter Logo'>
+        <img src='https://raw.githubusercontent.com/jspc/dean-swift/master/img/twitter-logo.png' alt='Dean Swift Twitter Logo' width='100'>
       </div>
       <div class='col-2-3'>
         <p>
